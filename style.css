@@ -56,8 +56,8 @@
 }
 
 .box1{
-    width: 20%;
-    height: 30vh;
+    max-width: 100%;
+    min-height: 30vh;
     border: 2px solid none;
     border-radius: 5px;
     border-top: 4px solid hsl(180, 62%, 55%);
@@ -65,8 +65,8 @@
 }
 
 .box2{
-    width: 20%;
-    height: 30vh;
+  max-width: 100%;
+  min-height: 30vh;
     border: 2px solid none;
     border-radius: 5px;
     border-top: 4px solid hsl(0, 78%, 62%);
@@ -74,8 +74,8 @@
 }
 
 .box3{
-  width: 20%;
-  height: 30vh;
+  max-width: 100%;
+  min-height: 30vh;
   border: 2px solid none;
   border-radius: 5px;
   border-top: 4px solid hsl(34, 97%, 64%);
@@ -84,8 +84,8 @@
 }
 
 .box4{
-  width: 20%;
-  height: 30vh;
+  max-width: 100%;
+  min-height: 30vh;
   border: 2px solid none;
   border-radius: 5px;
   border-top: 4px solid hsl(212, 86%, 64%);
@@ -106,38 +106,17 @@ img{
   margin: 20px;
 }
 
-.box_section{
-  /* display: flex;
-  gap: 3rem;
-  align-items: center;
-  flex-wrap: wrap;
-  margin:50px; */
-  /* width: 100%;
-  margin:0 auto;
-  align-items: center;
-  margin: 70px; */
+
+/* .mid-col {
   display: flex;
-  gap: 5rem;
-  /* width: 100%; */
+  flex-direction: row;
 
-}
-
-/* .col {
-  flex: 1 1 30%;
-  width: 100%;
-  float: left;
-  margin: 10px;
 } */
-
-.mid-col {
-  display: flex;
-  flex-direction: column;
-
-}
 
 .row{
   display:flex;
-  padding-top: 30px;
-  gap: 3rem;
-  /* flex-wrap:wrap;margin-right:-15px;margin-left:-15px */
+  padding: 40px;
+  gap: 5rem;
+  align-items: center;
+  
 }
